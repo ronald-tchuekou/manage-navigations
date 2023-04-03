@@ -11,13 +11,13 @@ export default function EmojiList (props: EmojiListProps) {
   const {onSelect, onCloseModal} = props
 
   const [emoji] = React.useState<any>([
-    require('../assets/emoji/emoji_1.png'),
-    require('../assets/emoji/emoji_2.png'),
-    require('../assets/emoji/emoji_3.gif'),
-    require('../assets/emoji/emoji_4.png'),
-    require('../assets/emoji/emoji_5.png'),
-    require('../assets/emoji/emoji_6.png'),
-    require('../assets/emoji/emoji_7.png'),
+    require('../../assets/emoji/emoji_1.png'),
+    require('../../assets/emoji/emoji_2.png'),
+    require('../../assets/emoji/emoji_3.gif'),
+    require('../../assets/emoji/emoji_4.png'),
+    require('../../assets/emoji/emoji_5.png'),
+    require('../../assets/emoji/emoji_6.png'),
+    require('../../assets/emoji/emoji_7.png'),
   ]);
 
   return (

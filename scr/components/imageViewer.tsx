@@ -1,7 +1,7 @@
 import React from "react"
 import {Image, StyleSheet} from "react-native";
 
-const BackgroundImage = require('../assets/background-image.png')
+const BackgroundImage = require('../../assets/background-image.png')
 
 type ImageViewerProps = {
   imagePath?: string
